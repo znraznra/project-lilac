@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>{{ page.title }}</title>
+			<!-- title>tkrn | Animator/Graphic Designer</title -->
+			<link rel="shortcut icon" type="image/png" href="{{ "../favicon.ico"  | absolute_url }}">
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+			<script src="https://kit.fontawesome.com/b42cef371d.js" crossorigin="anonymous"></script>
+			<style type="text/css" media="screen">
+			      body {
+			        display: flex;
+			        min-height: 100vh;
+			        flex-direction: column;
+			      }
+			 
+			      #wrapper {
+			        flex: 1;
+			      }
+		    	</style>
+		</head>
+		<body>
+			<div id="wrapper">
+				<!-- navbar -->
+				<nav class="navbar is-transparent is-fixed-top">
+				  <div class="navbar-brand">
+				    <a class="navbar-item" href="https://znra.fyi"><img src="../img/favicon/favicon-64.ico" /></a>
+				    <div class="navbar-burger js-burger" data-target="navbarExampleTransparentExample">
+				      <span></span>
+				      <span></span>
+				      <span></span>
+				      <span></span>
+				    </div>
+				  </div>
+		
+				  <div id="navbarExampleTransparentExample" class="navbar-menu">
+				    <div class="navbar-start">
+				      <a class="navbar-item" href="https://znra.fyi/"> Home </a>
+				      <div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link" href="https://znra.fyi/works"> Works </a>
+					<div class="navbar-dropdown">
+					  <a class="navbar-item" href="https://znra.fyi/works/animation/"> Animation </a>
+					  <a class="navbar-item" href="https://znra.fyi/works/graphic-design/"> Graphic Design </a>
+					  <a class="navbar-item" href="https://znra.fyi/works/drafts"> Drafts </a>
+					  <a class="navbar-item" href="https://znra.fyi/works/other"> Other Projects </a>
+					</div>
+				      </div>
+				    </div>
+				  </div>
+				</nav>
+				<!-- navbar -->
+				
+				<section class="section">
+					<div class="container">
+					
+					{{ content }}
+					
+					</div><!-- /.container -->
+				</section>
+			</div>
+			<footer class="footer">
+			  <div class="content has-text-centered">
+				<p>
+					© 2024 <a class="has-text-danger" href="https://znra.fyi">Znra</a>. Powered by Bulma.io
+			    	</p>
+			   	<p>
+					<a
+						      class="has-text-danger"
+						      data-social-network="X"
+						      data-social-action="follow"
+						      data-social-target="https://znra.fyi"
+						      target="_blank"
+						      href="https://x.com/takoriin"
+						    >
+						      <span class="icon">
+							<i class="fa-brands fa-x-twitter"></i>
+						      </span>
+						      
+						    </a>
+						    <a
+						      class="has-text-danger"
+						      data-social-network="Bluesky"
+						      data-social-action="follow"
+						      data-social-target="https://znra.fyi"
+						      target="_blank"
+						      href="https://takoriin.bsky.social"
+						    >
+						      <span class="icon">
+							<i class="fa-brands fa-bluesky"></i>
+						      </span>
+						      
+						    </a>
+						    <a
+						      class="has-text-danger"
+						      data-social-network="YouTube"
+						      data-social-action="follow"
+						      data-social-target="https://znra.fyi"
+						      target="_blank"
+						      href="https://www.youtube.com/@takoriin"
+						    >
+						      <span class="icon">
+							<i class="fa-brands fa-youtube"></i>
+						      </span>
+						      
+						    </a>
+						    <a
+						      class="has-text-danger"
+						      data-social-network="Vimeo"
+						      data-social-action="follow"
+						      data-social-target="https://znra.fyi"
+						      target="_blank"
+						      href="https://vimeo.com/znraznra"
+						    >
+						      <span class="icon">
+							<i class="fa-brands fa-vimeo"></i>
+						      </span>
+						      
+						    </a>
+						    <a
+						      class="has-text-danger"
+						      data-social-network="Email"
+						      data-social-action="email"
+						      data-social-target="https://znra.fyi"
+						      target="_blank"
+						      href="mailto:contact@znra.fyi"
+						    >
+						      <span class="icon">
+							<i class="fa-solid fa-envelope"></i>
+						      </span>
+						      
+						    </a>
+				</p>
+			  </div>
+			</footer>
+		</body>
+	</html>
